@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <title>Personalized Plant Recommendation - Sairam Techno Incubator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav class="nav-main">
+        <img class="incubator-logo" src="images/logo.png" alt="Sairam Techno Incubator">
+        <div class="nav-btns">
+            <a class="nav-link" href="index.html#home">HOME</a>
+            <a class="nav-link" href="index.html#about-us">ABOUT US</a>
+            <a class="nav-link" href="#about-us">PROJECT</a>
+            <a class="nav-link" href="index.html#team">TEAM</a>
+            <a class="nav-link" href="#footer">CONTACT</a>
+        </div>
+        <button class="hamburger" onclick="menuToggle()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <nav class="nav-main-mobile nav-main-hide-mobile">
+        <div class="nav-btns">
+            <a class="nav-link" href="index.html#home">HOME</a>
+            <a class="nav-link" href="index.html#about-us">ABOUT US</a>
+            <a class="nav-link" href="#about-us">PROJECT</a>
+            <a class="nav-link" href="index.html#team">TEAM</a>
+            <a class="nav-link" href="#footer">CONTACT</a>
+        </div>
+    </nav>
+
+    <div class="nav-comp"></div>
+    <div id="home" class="swiper main-swiper proj-swiper">
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="images/projects/p6-5.jpg" alt="">
+                <div class="text-gradient"></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/projects/p6-1.jpg" alt="">
+                <div class="text-gradient"></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/projects/p6-2.jpg" alt="">
+                <div class="text-gradient"></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/projects/p6-3.jpg" alt="">
+                <div class="text-gradient"></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/projects/p6-4.jpg" alt="">
+                <div class="text-gradient"></div>
+            </div>
+
+        </div>
+          <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <section id="about-us" class="project-sec">
+        <img src="images/projects/p6-5.jpg" alt="Project Sample Image" class="project-main">
+
+        <div class="data">
+            <h2> Automation & Monitoring system for Mushroom Cultivation</h2>
+            <hr class="underline">
+            <table class="tg">
+                <thead>
+                  <tr>
+                    <th class="tg-cly1">MENTOR</th>
+                    <th class="tg-cly1">Jayandan S A</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-cly1">MENTOR</td>
+                    <td class="tg-5lax"> Padma P (IT, SEC)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tg-cly1">Project Start Date:</td>
+                    <td class="tg-5lax">12-10-2021</td>
+                  </tr>
+                  <tr>
+                    <td class="tg-cly1">Project End Date:</td>
+                    <td class="tg-5lax">12-01-2022 (on-going)
+                   </td>
+                  </tr>
+                  <tr>
+                    <td class="tg-cly1">Total Student count:</td>
+                    <td class="tg-5lax">10</td>
+                  </tr>
+                </tbody>
+                </table>
+            <p class="desc-info">
+                "Automation through innovation"
+                <br><br>  We provide setups and methods to promote agriculture and make it more automated and technological     </p>
+        </div>
+    </section>
+
+    <section class="apply-banner">
+        <h3 class="apply-banner-text">Have a project ready?</h3>
+        <a href="form.html" class="apply-now">APPLY NOW</a>
+    </section>
+
+    <section id="footer" class="footer">
+        <div class="contact-details">
+            <img src="images/logo.png" alt="" class="incub-footer">
+            <div class="contact-links">
+                <div class="contact-phone"><i class="fa fa-phone-alt"></i><a target="_blank" href="tel:+91 7845127111">+91 7845127111</a></div>
+                <div class="contact-instagram"><i class="fab fa-instagram"></i><a target="_blank" href="https://www.instagram.com/techno_incubator_sairam/">@techno_incubator_sairam</a></div>
+                <div class="contact-mail"><i class="fa fa-envelope"></i><a target="_blank" href="mailto:incubation@sairam.edu.in">incubation@sairam.edu.in</a></div>
+                <div class="contact-mail"><i class="fa fa-envelope"></i><a target="_blank" href="mailto:queries.rd@sairam.edu.in">queries.rd@sairam.edu.in</a></div>
+            </div>
+            <a href="https://sairam.edu.in/"><img src="images/clg.png" alt="Sri Sairam Institutions" class="sairam-footer"></a>
+        </div>
+        <div class="form">
+            <h1>Contact Us</h1>
+            <label>Email</label>
+            <input type="text" placeholder="Enter a valid email address">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your Name">
+            <label>Message</label>
+            <textarea placeholder="Enter your message" name="" id="" cols="20" rows="5"></textarea>
+            <button type="button" onclick="this.innerText='SUBMITTED';">SUBMIT</button>
+        </div>
+        <div class="map-contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486.0197408349034!2d80.05689372236708!3d12.961744373583866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f53e694f0465%3A0x9fe2a8ace29ebc1c!2sSri%20Sairam%20Techno%20Incubator%20Foundation!5e0!3m2!1sen!2sin!4v1679409054276!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

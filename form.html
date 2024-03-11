@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <title>Applicaton - Sairam Techno Incubator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav class="nav-main">
+        <img class="incubator-logo" src="images/logo.png" alt="Sairam Techno Incubator">
+        <div class="nav-btns">
+            <a class="nav-link" href="index.html">HOME</a>
+            <a class="nav-link" href="index.html#about-us">ABOUT US</a>
+            <a class="nav-link" href="index.html#team">TEAM</a>
+            <a class="nav-link" href="#footer">CONTACT</a>
+        </div>
+        <button class="hamburger" onclick="menuToggle()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <nav class="nav-main-mobile nav-main-hide-mobile">
+        <div class="nav-btns">
+            <a class="nav-link" href="index.html">HOME</a>
+            <a class="nav-link" href="index.html#about-us">ABOUT US</a>
+            <a class="nav-link" href="index.html#team">TEAM</a>
+            <a class="nav-link" href="#footer">CONTACT</a>
+        </div>
+    </nav>
+    <br>
+    <br><br><br>
+    <section id="forms" class="fofo">
+        <div class="Form-contact">
+            <iframe src="https://forms.gle/qTQCSKVyrrDLgaJ26" frameborder="0" width="1000" height="1000"></iframe>
+        </div>
+    </section>
+    <br>
+    <section id="footer" class="footer">
+        <div class="contact-details">
+            <img src="images/logo.png" alt="" class="incub-footer">
+            <div class="contact-links">
+                <div class="contact-phone"><i class="fa fa-phone-alt"></i><a target="_blank" href="tel:+91 7845127111">+91 7845127111</a></div>
+                <div class="contact-instagram"><i class="fab fa-instagram"></i><a target="_blank" href="https://www.instagram.com/techno_incubator_sairam/">@techno_incubator_sairam</a></div>
+                <div class="contact-mail"><i class="fa fa-envelope"></i><a target="_blank" href="mailto:incubation@sairam.edu.in">incubation@sairam.edu.in</a></div>
+                <div class="contact-mail"><i class="fa fa-envelope"></i><a target="_blank" href="mailto:queries.rd@sairam.edu.in">queries.rd@sairam.edu.in</a></div>
+            </div>
+            <a href="https://sairam.edu.in/"><img src="images/clg.png" alt="Sri Sairam Institutions" class="sairam-footer"></a>
+        </div>
+        <div class="form">
+            <h1>Contact Us</h1>
+            <label>Email</label>
+            <input type="text" placeholder="Enter a valid email address">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your Name">
+            <label>Message</label>
+            <textarea placeholder="Enter your message" name="" id="" cols="20" rows="5"></textarea>
+            <button type="button" onclick="this.innerText='SUBMITTED';">SUBMIT</button>
+        </div>
+        <div class="map-contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486.0197408349034!2d80.05689372236708!3d12.961744373583866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f53e694f0465%3A0x9fe2a8ace29ebc1c!2sSri%20Sairam%20Techno%20Incubator%20Foundation!5e0!3m2!1sen!2sin!4v1679409054276!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
